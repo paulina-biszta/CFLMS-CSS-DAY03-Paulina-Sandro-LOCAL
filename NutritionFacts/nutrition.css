@@ -5,6 +5,7 @@
     border: 1px solid black;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 20px;
     line-height: 1px;
     font-weight: bold;
 }
@@ -21,7 +22,7 @@
     height: 20px;
     width: 490px;
 }
-#amount {
+.description {
     display: flex;
     flex-flow: column;
     text-align: right;
@@ -49,8 +50,16 @@
     border-top: 1px solid black;
 }
 .greyline {
-    border: 1px solid gray;
-    padding-left: 15px;
+    border: 1px solid gray; 
+}
+.blackline{
+    height: 3px;
+    background-color: black;
+}
+.shorterline{
+    height: 1px;
+    flex-flow: row;
+    background-color: black;
 }
 .fat {
     padding-left: 15px;
