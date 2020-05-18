@@ -4,6 +4,7 @@
     justify-content: flex-start;*/
     border: 1px solid black;
     padding-left: 10px;
+    padding-right: 10px;
     line-height: 1px;
     font-weight: bold;
 }
@@ -24,12 +25,26 @@
     display: flex;
     flex-flow: column;
     text-align: right;
-    padding-right: 10px;
+    /*padding-right: 10px;*/
+}
+#servingmain{
+    display: flex;
+    flex-flow: row;
 }
 #serving {
     flex-flow: row;
+    width: 70%;
     padding-right: 10px;
     display: flex;
     justify-content: space-between;
 
+}
+#ingredients{
+    display: flex;
+    width: 30%;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.thinline{
+    border-top: 1px solid black;
 }
