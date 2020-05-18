@@ -1,0 +1,96 @@
+body{
+    background-color: #2e2e80;
+}
+
+#mainbox{
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+#navigation{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.navitem{
+    text-align: center;
+    width: 33.33%;
+}
+.navitem h2{
+    color: white;
+}
+
+#leftbox{
+    display: flex;
+    flex-flow: column;
+}
+
+#middlebox{
+    display: flex;
+    flex-flow: column;
+}
+
+#rightbox{
+    display: flex;
+    flex-flow: column;
+}
+
+.boxitem{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    flex-flow: column;
+    border-left: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: height 0.8s;
+}
+.boxitem>p{
+    visibility: hidden;
+}
+.boxitem>img{
+    margin-top: 10px;
+    width: 140px;
+    height: 100px;
+    visibility: hidden;
+}
+
+.boxitem:hover{
+    height: 250px;
+}
+.boxitem:hover>p{
+    visibility: visible;
+}
+.boxitem:hover>img{
+    visibility: visible;
+}
+
+#description{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 50px;
+    background-color: lightgray;
+    text-indent: -9999px;
+    transition: height 2s, width 1s, text-indent 2s;
+    border: 1px solid black;
+}
+
+#description:hover{
+    height: 500px;
+    width: 260px;
+    text-indent: 0px;
+    background-color: white;
+}
