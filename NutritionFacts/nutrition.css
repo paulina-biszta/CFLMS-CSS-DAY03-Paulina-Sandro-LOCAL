@@ -48,3 +48,11 @@
 .thinline{
     border-top: 1px solid black;
 }
+.greyline {
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+.fat {
+    padding-left: 15px;
+}
+
