@@ -1,0 +1,19 @@
+#main{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+#header{
+    justify-content: flex-start;
+    flex-flow: column;
+}
+
+.bigline{
+    flex-flow: column;
+    background-color: black;
+    height: 20px;
+    width: 490px;
+}
