@@ -1,14 +1,17 @@
 #main{
     width: 500px;
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;
+    justify-content: flex-start;*/
     border: 1px solid black;
     padding-left: 10px;
+    line-height: 1px;
+    font-weight: bold;
 }
 
 #header{
     justify-content: flex-start;
     flex-flow: column;
+    display:flex;
 }
 
 .bigline{
@@ -16,4 +19,17 @@
     background-color: black;
     height: 20px;
     width: 490px;
+}
+#amount {
+    display: flex;
+    flex-flow: column;
+    text-align: right;
+    padding-right: 10px;
+}
+#serving {
+    flex-flow: row;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
 }
