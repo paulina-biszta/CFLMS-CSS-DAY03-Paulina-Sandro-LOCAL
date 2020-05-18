@@ -1,31 +1,45 @@
-body {
+body{
 	margin: 0;
 	padding: 0;
 	font-size: 1vw;
 }
+
 #header {
 	width: 100%;
 	text-align: center;
 	background-color: black;
 	color: white;
 }
+
 #header > img {
 	width: 40%;
 
 }
+
+h1{
+	margin: 0;
+}
+
 nav {
 	color: white;
 	background-color: black;
 }
+
+nav>ul{
+	margin-top: 0;
+}
+
 ul{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 }
+
 li {
 	color: white;
 	list-style: none;
 }
+
 a {
 	text-decoration: none;
 	color: white;
